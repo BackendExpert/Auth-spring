@@ -58,6 +58,27 @@
 			<artifactId>spring-security-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-api</artifactId>
+			<version>0.11.5</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/jjwt-api-0.11.5.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/jjwt-impl-0.11.5.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-jackson</artifactId>
+			<version>0.11.5</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/libs/jjwt-jackson-0.11.5.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 	<build>
